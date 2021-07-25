@@ -53,8 +53,11 @@ SPELL:arcanabasics_spells_incantations.lst
 
 
 
+#split some entries out so Arcana can be loaded *without* the Modern - Creatures set.
 TEMPLATE:arcanabasics_templates.lst
+TEMPLATE:arcanabasics_templates_creatures.lst|PRECAMPAIGN:1,INCLUDES=Modern - Creatures
 TEMPLATE:arcanabasics_templates_hidden.lst
+TEMPLATE:arcanabasics_templates_creatures_hidden.lst|PRECAMPAIGN:1,INCLUDES=Modern - Creatures
 TEMPLATE:arcanabasics_templates_organizations.lst
 TEMPLATE:arcanabasics_templates_incantations.lst
 
