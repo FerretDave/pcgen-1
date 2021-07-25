@@ -5,7 +5,7 @@ GENRE:Modern Arcana
 BOOKTYPE:Core Supplement
 SETTING:Modern FX
 TYPE:MSRD.Complete
-PRECAMPAIGN:2,MSRD - Basics,Modern - Basics,Modern - FX
+PRECAMPAIGN:1,MSRD - Basics,Modern - Basics
 !PRECAMPAIGN:1,Arcana - Basics,Arcana - Creatures,Arcana - Psionics
 PUBNAMELONG:Wizards of the Coast
 PUBNAMESHORT:WotC
@@ -24,8 +24,7 @@ COPYRIGHT:PCGen dataset conversion for the Modern System Reference Document Copy
 
 
 PCC:@/modern/wizards_of_the_coast/msrd/arcana/basics/arcanabasics.pcc
-# This PRECAMPAIGN is ignored (doesnt work on PCC lines?), so I've set it on all the entries within the referenced pcc.
-#PCC:@/modern/wizards_of_the_coast/msrd/arcana/creatures/arcanacreatures.pcc|PRECAMPAIGN:1,INCLUDES=Modern - Creatures
+PCC:@/modern/wizards_of_the_coast/msrd/arcana/creatures/arcanacreatures.pcc
 PCC:@/modern/wizards_of_the_coast/msrd/arcana/psionics/arcanapsionics.pcc
 
 

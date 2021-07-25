@@ -99,10 +99,3 @@ pcgendev.iml
 # Misc
 jre/
 code/manifest-tests
-# Vim temp files
-.gitignore~
-*.un~
-*.pcc~
-*.lst~
-*.swp
-

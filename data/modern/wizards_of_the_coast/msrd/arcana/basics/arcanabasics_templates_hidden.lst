@@ -59,11 +59,26 @@ Sonic/Concussion Resistance 20	VISIBLE:NO	SOURCEPAGE:ArcanaCreatures	!PRETEMPLAT
 15/+2			VISIBLE:NO	DR:15/+2		SOURCEPAGE:ArcanaCreatures	!PRETEMPLATE:1,5/+1	!PRETEMPLATE:1,10/+1	!PRETEMPLATE:1,15/+1	!PRETEMPLATE:1,20/+1	!PRETEMPLATE:1,5/+2	!PRETEMPLATE:1,10/+2	!PRETEMPLATE:1,20/+2
 20/+2			VISIBLE:NO	DR:20/+2		SOURCEPAGE:ArcanaCreatures	!PRETEMPLATE:1,5/+1	!PRETEMPLATE:1,10/+1	!PRETEMPLATE:1,15/+1	!PRETEMPLATE:1,20/+1	!PRETEMPLATE:1,5/+2	!PRETEMPLATE:1,10/+2	!PRETEMPLATE:1,15/+2
 
+###Block: Demonic Auto
+# Template Name	Damage Reduction	Template						Source Page				Ability										Type				Vision
+Demonic Auto	DR:20/+1		TEMPLATE:Construct	TEMPLATE:Outsider	SOURCEPAGE:ArcanaCreatures	ABILITY:Special Ability|AUTOMATIC|No limbs|Repairable|Trample	TYPE:Construct.Outsider	VISION:Darkvision (120')
+
 ###Block: Half-dragon
 # Template Name	Visible	Stat bonus		Move
 Wings			VISIBLE:NO				MOVE:Fly,30
 No Wings		VISIBLE:NO	BONUS:STAT|STR|4
 
+###Block: Liquefied Zombie
+# Template Name			Challenge Rating	Visible	Required Size
+Liquefied Zombie (Fine)		CR:0			VISIBLE:NO	PRESIZEEQ:F
+Liquefied Zombie (Diminutive)	CR:0			VISIBLE:NO	PRESIZEEQ:D
+Liquefied Zombie (Tiny)		CR:0			VISIBLE:NO	PRESIZEEQ:T
+Liquefied Zombie (Small)	CR:1			VISIBLE:NO	PRESIZEEQ:S
+Liquefied Zombie (Medium)	CR:2			VISIBLE:NO	PRESIZEEQ:M
+Liquefied Zombie (Large)	CR:4			VISIBLE:NO	PRESIZEEQ:L
+Liquefied Zombie (Huge)		CR:5			VISIBLE:NO	PRESIZEEQ:H
+Liquefied Zombie (Gargantuan)	CR:7			VISIBLE:NO	PRESIZEEQ:G
+Liquefied Zombie (Colossal)	CR:10			VISIBLE:NO	PRESIZEEQ:C
 
 ###Block: Species Traits
 # Template Name	Visible	Source Page				Ability
